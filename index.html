@@ -4,68 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vale Rideout Basic Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- Notes on my frustrations with Bootstrap vol. 1 -->
-    <!-- When trying to use the same code that I maticulously -->
-    <!-- setup WITHOUT Bootstrap, I have found that it is more trouble -->
-    <!-- than it is worth - because trying to micromanage Bootstrap is a -->
-    <!-- fools errand. The style info fights with any conflicts and it is -->
-    <!-- almost impossible to know which is overiding which. -->
-    <!-- possibly the biggest issue - is that with so many versions of -->
-    <!-- Bootstrap, googling code for a module or input box or footer proves -->
-    <!-- impossible, because the code will refer to an older version (perhaps) -->
-    <!-- and by changing the STYLE tags in the HEAD, you will most likely make  -->
-    <!-- code that you already entered useless. I'm not a fan of Bootstrap - unless -->
-    <!-- I were to make the most simple site possible in the quickest time possibl -->
-    <!-- and that wasn't this exercise. Even though this site was simple. Making it 'like' -->
-    <!-- the image in the instructions - even with colors provided - was terribly  -->
-    <!-- frustrating with Bootstrap.  -->
+   
 </head>
 <body>
-    <div class="container fullcontainer">
-         <div class="row myrow">
-            <div class="col-md-4" id="headteal">
-                 <h1>Vale Rideout</h1>
-            </div>
-             <div class="col-md-4">
-             </div>
-             <div class="col-md-4">
-                    <nav class="navbar navbar-expand-lg navbar-white bg-white">
-                        <div class="container";>
-                          <a class="navbar-brand" href="index.html">about</a>
-                          <a class="navbar-brand" href="portfolio.html">portfolio</a>
-                          <a class="navbar-brand" href="contact.html">contact</a>
-                        </div>
-                    </nav>
-            </div>
-        </div>
-    </div>
-<div class="container">
-     <div class="container maincontainer">
-    
-             <div class="row" style="border-bottom: 1px solid #cccccc">
-                 <h2>About Me</h2>
-            </div>
-            <div class="row" style="margin: 25px 0px 25px 0px">
-                    <p><img src="images/portrait.jpg" class="rounded float-left" alt="..." style="margin: 0px 20px 15px 0px;">Having spent my career on the stage and in the pratice-room as an opera singer, you can safely say that this new career path is new to me. Programming has always been in my blood and This summer, I am taking a transfusion of code while studying at Rutgers in their <a href="https://bootcamp.rutgers.edu/" target=0>Computer Science Bootcamp</a>
-                <br>I live in the Allentown area with my wife and two children, enjoy bicycling (and of course music), and am dedicated to filling your need with someone who can create, maintain or problem-solve your web applications - from databases using jQuery, funcionality using Javascript, or with HTML and photo-editing to solve the presentation of your business to the world over the internet.
-                <br><br>Having spent my career on the stage and in the pratice-room as an opera singer, you can safely say that this new career path is new to me. Programming has always been in my blood and This summer, I am taking a transfusion of code while studying at Rutgers in their <a href="https://bootcamp.rutgers.edu/" target=0>Computer Science Bootcamp</a>
-                <br><br>I live in the Allentown area with my wife and two children, enjoy bicycling (and of course music), and am dedicated to filling your need with someone who can create, maintain or problem-solve your web applications - from databases using jQuery, funcionality using Javascript, or with HTML and photo-editing to solve the presentation of your business to the world over the internet.
-                <br><br>Having spent my career on the stage and in the pratice-room as an opera singer, you can safely say that this new career path is new to me. Programming has always been in my blood and This summer, I am taking a transfusion of code while studying at Rutgers in their <a href="https://bootcamp.rutgers.edu/" target=0>Computer Science Bootcamp</a>
-                <br><br>I live in the Allentown area with my wife and two children, enjoy bicycling (and of course music), and am dedicated to filling your need with someone who can create, maintain or problem-solve your web applications - from databases using jQuery, funcionality using Javascript, or with HTML and photo-editing to solve the presentation of your business to the world over the internet.
-    </div>
-</div>
-<div>
-        <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark" style"text-align:center";><p class="text-white bg-dark"; style="width:250px";>
-        &copy; 2018 vale rideout - and others</p>
-        </nav>
-</div>
 
-          <!-- jQuery CDN -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- Bootstrap JavaScript CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <header>
+            <div class="wrapper">
+             <h1>vale rideout</h1>
+             <nav>
+                 <ul>
+                     <!-- refine style to clean up nav bar -->
+                     <li><a href="index.html">about</a></li>
+                     <li><a href="portfolio.html">portfolio</a></li>
+                     <li><a href="contact.html">contact</a></li>
+                 </ul>
+             </nav>
+        </header>
+    
+        <div class="wrapper">
+            <section id="main">
+                <!-- section needs style to wrap text around photo -->
+                <h2>About Me</h2>
+                <img src="images/portrait.jpg" width="30%" class="inline-image"/>
+                <p>Having spent my career on the stage and in the pratice-room as an opera singer, you can safely say that this new career path is new to me. Programming has always been in my blood and This summer, I am taking a transfusion of code while studying at Rutgers in their <a href="https://bootcamp.rutgers.edu/" target=0>Computer Science Bootcamp</a></p>
+                <p>I live in the Allentown area with my wife and two children, enjoy bicycling (and of course music), and am dedicated to filling your need with someone who can create, maintain or problem-solve your web applications - from databases using jQuery, funcionality using Javascript, or with HTML and photo-editing to solve the presentation of your business to the world over the internet.</p>
+                <p>Having spent my career on the stage and in the pratice-room as an opera singer, you can safely say that this new career path is new to me. Programming has always been in my blood and This summer, I am taking a transfusion of code while studying at Rutgers in their <a href="https://bootcamp.rutgers.edu/" target=0>Computer Science Bootcamp</a></p>
+                <p>I live in the Allentown area with my wife and two children, enjoy bicycling (and of course music), and am dedicated to filling your need with someone who can create, maintain or problem-solve your web applications - from databases using jQuery, funcionality using Javascript, or with HTML and photo-editing to solve the presentation of your business to the world over the internet.</p>
+                <p>Having spent my career on the stage and in the pratice-room as an opera singer, you can safely say that this new career path is new to me. Programming has always been in my blood and This summer, I am taking a transfusion of code while studying at Rutgers in their <a href="https://bootcamp.rutgers.edu/" target=0>Computer Science Bootcamp</a></p>
+                <p>I live in the Allentown area with my wife and two children, enjoy bicycling (and of course music), and am dedicated to filling your need with someone who can create, maintain or problem-solve your web applications - from databases using jQuery, funcionality using Javascript, or with HTML and photo-editing to solve the presentation of your business to the world over the internet.</p>
+           
+            </section>
+        </div>
+
+       
+
+        <footer>
+            &copy; 2018 vale rideout - and others
+        </footer>
     </body>
 </html>
